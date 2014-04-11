@@ -1,7 +1,6 @@
-#Kent State Online Education Landing Pages
+#AJAX Forms
 
 ##Requirements for environment
 
 * Grunt
-* Bower
 * PHP
