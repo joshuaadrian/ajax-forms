@@ -1,0 +1,192 @@
+
+.button {
+  width:100%;
+}
+
+/************************************************************************/
+/* HEADER
+/************************************************************************/
+
+header {
+
+  .top-bar {
+
+    padding:15px 0;
+
+    .logo {
+
+      height      : 41px;
+      background-size: 140px 41px;
+
+    }
+
+  }
+
+  .header-title {
+    margin-top:180px;
+  }
+
+  .header-image {
+
+    .header-image-wrapper {
+
+      height:300px;
+
+    }
+
+  }
+
+  .form-container {
+    margin-top: 40px !important;
+  }
+
+  .infographic-container {
+
+    h1 {
+
+      font-size: 2.4em;
+    }
+
+    h3 {
+
+      font-size: em(36);
+      margin:15px 0 0;
+      padding:0 0 5px;
+
+    }
+
+    h4 {
+
+      font-size: em(24);
+      margin: 0px 0 40px;
+      text-align: center;
+
+    }
+
+    p {
+
+      .button {
+        margin:10px 0 20px;
+        width:100%;
+      }
+
+      img {
+
+        .criminology & {
+          margin-top:60px;
+        }
+
+        .mpa & {
+          margin-top:30px;
+        }
+
+      }
+
+    }
+
+    .cta {
+
+      text-align: center;
+
+      h2 {
+
+        font-size: em(18);
+
+        &.knockout {
+          float:none;
+          display:inline-block;
+          margin:20px 0 0;
+        }
+
+      }
+
+      h4 {
+
+        font-size: em(16);
+        line-height: 1.2;
+
+      }
+
+    }
+
+  }
+
+}
+
+section {
+  
+  .page-content-inner {
+
+    .center {
+
+      h1 {
+
+        font-size: em(30);
+        line-height: 1.2;
+        margin-top:40px;
+
+        small {
+
+          margin-bottom:5px;
+
+        }
+
+      }
+
+    }
+
+    .copy {
+
+      width: auto;
+
+      &:before,
+      &:after {
+        display:none;
+      }
+
+      .left {
+
+        padding:0 15px;
+        float:none;
+        width:100%;
+        text-align: left;
+        margin:0 0 60px;
+
+      }
+
+      .right {
+
+        padding:0 15px 20px;
+        float:none;
+        width:100%;
+
+      }
+
+    }
+
+    .quote {
+
+      padding:40px 15px 20px;
+
+      img {
+        margin-top:0;
+      }
+
+      blockquote {
+
+        q {
+          font-size: em(24);
+        }
+
+        cite {
+          font-size: em(20);
+          margin-bottom:20px;
+        }
+
+      }
+
+    }
+
+  }
+
+}

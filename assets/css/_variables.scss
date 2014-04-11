@@ -1,0 +1,57 @@
+/************************************************************************/
+/* FONT STACKS
+/************************************************************************/
+
+$sans-serif           : "tablet-gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-serif-condensed : "tablet-gothic-semi-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-serif-slab      : "museo-slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif                : Georgia, serif;
+
+/************************************************************************/
+/* COLORS
+/************************************************************************/
+
+// ALERT COLORS
+$alert-yellow       : #ebe16f;
+$alert-red          : #fbe3e4;
+$alert-green        : #e6efc2;
+$alert-blue         : #d5edf8;
+
+// KENT BASE COLORS
+$kent-blue          : rgb(0,38,100);
+$kent-yellow        : rgb(234, 171, 0);
+$kent-grey          : rgb(175, 167, 159);
+
+// KENT BASE COLOR BRIGHT VARIANTS
+$kent-bright-blue   : rgb(66,109,169);
+$kent-bright-yellow : rgb(234,171,0);
+$kent-bright-grey   : rgb(199,194,186);
+
+// KENT BASE COLOR DARK VARIANTS
+$kent-dark-blue     : darken($kent-blue, 10%);
+$kent-dark-yellow   : darken($kent-yellow, 10%);
+$kent-dark-grey     : darken($kent-grey, 10%);
+
+// KENT BASE GREY VARIANTS
+$kent-dark-grey     : rgb(115,115,115);
+$kent-white         : rgb(255, 255, 255);
+$kent-black         : rgb(0, 0, 0);
+$kent-light-grey    : rgb(199,194,186);
+
+// BASE COLORS
+$black              : #101010;
+$teal               : rgb(94,168,172);
+
+$link-color         : $kent-bright-blue;
+$link-hover         : darken($link-color, 10%);
+
+$bold-color         : $kent-blue;
+$italic-color       : $kent-blue;
+
+/************************************************************************/
+/* MIXINS
+/************************************************************************/
+
+@function em($pxval, $base: 18) {
+  @return ($pxval / $base) * 1em;
+}
